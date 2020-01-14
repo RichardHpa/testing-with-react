@@ -18,7 +18,7 @@ export default class App extends Component {
                         <div className="nav-wrapper">
                             <a href="./" className="brand-logo center">Courses</a>
                         </div>
-                        </nav>
+                    </nav>
                 </div>
                 <div>
                     <Grid items={this.state.courses}/>
